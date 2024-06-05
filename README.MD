@@ -7,7 +7,7 @@ Nicolas Martins      RM: 553478
 Yago Lucas Gonçalves    RM:553013 
 
 # LINK PARA O VIDEO NO YOUTUBE
-Você pode ver o video explicativo da solução acessando o link: [text](https://www.youtube.com/watch?v=2tpnEAn47Mw)
+Você pode ver o video explicativo da solução [CLICANDO AQUI](https://www.youtube.com/watch?v=2tpnEAn47Mw)
 
 # Global Solution - Blue Future
 
