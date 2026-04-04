@@ -5,6 +5,7 @@ import { DisposalChart } from "@/components/DisposalChart";
 import { CountriesChart } from "@/components/CountriesChart";
 import { MLSection } from "@/components/MLSection";
 import { useLanguage } from "@/lib/LanguageContext";
+import Link from "next/link";
 
 const STACK = [
   { name: "Python 3", color: "#3b82f6" },
@@ -16,7 +17,7 @@ const STACK = [
 ];
 
 export default function Home() {
-  const { t, toggle } = useLanguage();
+  const { t, lang, toggle } = useLanguage();
 
   return (
     <div className="min-h-screen bg-[#030712]">
@@ -29,6 +30,12 @@ export default function Home() {
             <span className="text-gray-600 text-sm">{t.nav.subtitle}</span>
           </div>
           <div className="flex items-center gap-4">
+            <Link
+              href="/notebook"
+              className="text-gray-500 hover:text-white text-sm transition-colors hidden sm:block"
+            >
+              Notebooks
+            </Link>
             <button
               onClick={toggle}
               className="px-2.5 py-1 rounded border border-gray-700 text-gray-400 hover:text-white hover:border-gray-500 text-xs font-mono transition-colors"
@@ -177,14 +184,23 @@ export default function Home() {
               ))}
             </div>
 
-            <a
-              href="https://github.com/nemcolas/GSIA"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 text-green-400 hover:text-green-300 text-sm font-medium transition-colors"
-            >
-              {t.process.notebook_cta} →
-            </a>
+            <div className="flex flex-wrap gap-3">
+              <Link
+                href="/notebook"
+                className="inline-flex items-center gap-2 px-4 py-2 bg-gray-900 hover:bg-gray-800 border border-gray-700 hover:border-gray-500 text-white rounded-lg text-sm font-medium transition-all"
+              >
+                <span className="w-1.5 h-1.5 rounded-full bg-orange-500" />
+                {lang === "pt" ? "Ver notebooks interativos" : "View interactive notebooks"}
+              </Link>
+              <a
+                href="https://github.com/nemcolas/GSIA"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-gray-500 hover:text-white text-sm font-medium transition-colors py-2"
+              >
+                {t.process.notebook_cta} →
+              </a>
+            </div>
           </div>
         </section>
 
