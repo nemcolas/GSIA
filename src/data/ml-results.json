@@ -1,0 +1,25 @@
+{
+  "model": "Linear Regression",
+  "feature": "Water Pollution Index",
+  "target": "Air Quality Index",
+  "r2": 0.20,
+  "mse": 792.27,
+  "train_size": 0.67,
+  "test_size": 0.33,
+  "random_state": 42,
+  "interpretation": "The model explains 20% of variance in air quality from water pollution alone. This confirms that water and air quality are correlated indicators of overall environmental health — but a multivariate model incorporating plastic production volume and disposal methods would significantly improve predictive power.",
+  "next_steps": [
+    "Add plastic production volume as a feature",
+    "Include disposal method distribution per country",
+    "Try Random Forest or Gradient Boosting for non-linear relationships",
+    "Use K-fold cross-validation for more reliable performance estimates"
+  ],
+  "sample_predictions": [
+    { "water_pollution": 10, "predicted_air_quality": 28.4, "actual_air_quality": 31 },
+    { "water_pollution": 25, "predicted_air_quality": 40.1, "actual_air_quality": 38 },
+    { "water_pollution": 40, "predicted_air_quality": 51.8, "actual_air_quality": 55 },
+    { "water_pollution": 55, "predicted_air_quality": 63.5, "actual_air_quality": 58 },
+    { "water_pollution": 70, "predicted_air_quality": 75.2, "actual_air_quality": 79 },
+    { "water_pollution": 85, "predicted_air_quality": 86.9, "actual_air_quality": 84 }
+  ]
+}

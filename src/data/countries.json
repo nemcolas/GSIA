@@ -1,0 +1,15 @@
+[
+  { "country": "Kuwait", "waste_kg_day": 0.69, "region": "Middle East" },
+  { "country": "Guyana", "waste_kg_day": 0.68, "region": "South America" },
+  { "country": "Germany", "waste_kg_day": 0.66, "region": "Europe" },
+  { "country": "Netherlands", "waste_kg_day": 0.65, "region": "Europe" },
+  { "country": "Ireland", "waste_kg_day": 0.63, "region": "Europe" },
+  { "country": "United States", "waste_kg_day": 0.61, "region": "North America" },
+  { "country": "United Kingdom", "waste_kg_day": 0.59, "region": "Europe" },
+  { "country": "South Korea", "waste_kg_day": 0.54, "region": "Asia" },
+  { "country": "Australia", "waste_kg_day": 0.53, "region": "Oceania" },
+  { "country": "Japan", "waste_kg_day": 0.47, "region": "Asia" },
+  { "country": "Brazil", "waste_kg_day": 0.21, "region": "South America" },
+  { "country": "China", "waste_kg_day": 0.19, "region": "Asia" },
+  { "country": "India", "waste_kg_day": 0.11, "region": "Asia" }
+]

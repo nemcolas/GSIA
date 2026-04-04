@@ -1,0 +1,17 @@
+[
+  { "year": 1950, "tons": 2 },
+  { "year": 1955, "tons": 3 },
+  { "year": 1960, "tons": 7 },
+  { "year": 1965, "tons": 15 },
+  { "year": 1970, "tons": 30 },
+  { "year": 1975, "tons": 47 },
+  { "year": 1980, "tons": 65 },
+  { "year": 1985, "tons": 86 },
+  { "year": 1990, "tons": 121 },
+  { "year": 1995, "tons": 147 },
+  { "year": 2000, "tons": 204 },
+  { "year": 2005, "tons": 247 },
+  { "year": 2010, "tons": 313 },
+  { "year": 2015, "tons": 381 },
+  { "year": 2019, "tons": 460 }
+]

@@ -1,0 +1,7 @@
+[
+  { "method": "Landfill", "percentage": 49, "color": "#f97316" },
+  { "method": "Mismanaged", "percentage": 22, "color": "#ef4444" },
+  { "method": "Incinerated", "percentage": 12, "color": "#eab308" },
+  { "method": "Recycled", "percentage": 9, "color": "#22c55e" },
+  { "method": "Ocean-bound", "percentage": 8, "color": "#3b82f6" }
+]
